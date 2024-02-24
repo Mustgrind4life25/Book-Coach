@@ -1,0 +1,19 @@
+@media screen and (max-width: 1200px){
+	.links-container{
+		display: none;
+	}
+
+	.hamburger-links-container{
+		display: flex;
+	}
+	.links-container-hamburger{
+		display: flex;
+		justify-content: center;
+	}
+	.icon-link-hamburger{
+		width: 20px;
+	}
+	.half-line{
+		display: none;
+	}
+}
