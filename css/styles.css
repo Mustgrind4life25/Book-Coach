@@ -38,6 +38,10 @@
 	margin: 0 auto;
 }
 
+#links{
+	height: 17vh;
+}
+
 .links-container{
 	display: flex;
 	justify-content: center;
@@ -84,11 +88,12 @@ ul{
 .hamburger-icon{
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
+	justify-content: space-around;
 	height: 24px;
 	width: 30px;
 	cursor: pointer;
 }
+
 
 
 .hamburger-icon span{
@@ -101,7 +106,7 @@ ul{
 .links-container-hamburger{
 	position: absolute;
 	top: 100%;
-	right: 0%;
+	right: 0;
 	color: #000;
 	background-color: #fff;
 	width: fit-content;
@@ -122,7 +127,7 @@ ul{
 
 /*Latest Section*/
 #latest{
-	height: 30vn;
+/*	height: 30vh;*/
 	display: flex;
 	justify-content: center;
 	padding-top: 5rem;
@@ -176,7 +181,7 @@ ul{
 
 /*About player coach section*/
 #player-coach{
-	height: 80vh;
+/*	height: 80vh;*/
 	width: 800px;
 	margin: 0 auto;
 	background: #F5F7F8;
