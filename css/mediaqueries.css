@@ -1,46 +1,38 @@
 @media screen and (max-width: 1200px){
 	#top-header{
-		display: none;
+		display: flex;
+		align-items: center;
+		padding: 0;
 	}
 
 	#links{
-		height: 20vh;
-		margin: 0 auto;
-	}
-
-	/*.books-container{
-		display: inline-block;
-		margin: 0 auto;
-	}*/
-
-	section{
-		height: fit-content;
-		margin: 0 5%;
+		
 	}
 
 	.links-container{
 		display: none;
 	}
 
-	.hamburger-links-container{
+	section{
+		height: fit-content;
+		margin: 0 5%;
+	}
+
+	.links-parent{
+
+	}
+
+	/*Hamburger Section*/
+	#hamburger-nav{
 		display: flex;
+		justify-content: flex-end;
 	}
-
-
-	.hamburger-menu-container{
-		margin-top: 50px;
-	}
+	
 
 	.top-header-container{
 		display: flex;
 		justify-content: center;
 		gap: 5px;
-	}
-
-
-	.links-container-hamburger{
-		display: flex;
-		justify-content: center;
 	}
 	.half-line{
 		display: none;
@@ -65,6 +57,7 @@
 	}
 	.review-containers{
 		width: auto;
+		margin: 10px;
 	}
 }
 
@@ -73,5 +66,20 @@
 
 
 @media screen and (max-width: 600px){
+	#latest{
+		margin-top: 4rem;
+	}
 
+	#hamburger-nav{
+		display: flex;
+		justify-content: center;
+	}
+
+	.books-container{
+		width: fit-content;
+	}
 }
+
+
+
+/*********************************************************/
