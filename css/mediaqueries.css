@@ -1,4 +1,24 @@
 @media screen and (max-width: 1200px){
+	#top-header{
+		display: none;
+	}
+
+	#links{
+		border: 2px solid;
+		height: 20vh;
+		margin: 0 auto;
+	}
+
+	/*.books-container{
+		display: inline-block;
+		margin: 0 auto;
+	}*/
+
+	section{
+		height: fit-content;
+		margin: 0 5%;
+	}
+
 	.links-container{
 		display: none;
 	}
@@ -6,14 +26,53 @@
 	.hamburger-links-container{
 		display: flex;
 	}
+
+
+	.hamburger-menu-container{
+		margin-top: 50px;
+	}
+
+	.top-header-container{
+		display: flex;
+		justify-content: center;
+		gap: 5px;
+	}
+
+
 	.links-container-hamburger{
 		display: flex;
 		justify-content: center;
 	}
-	.icon-link-hamburger{
-		width: 20px;
-	}
 	.half-line{
 		display: none;
 	}
+}
+
+
+@media screen and (max-width: 800px){
+	.books-container{
+		flex-direction: column;
+		align-items: center;
+	}
+	.bars{
+		display: none;
+	}
+	#player-coach{
+		padding: 4rem;
+		width: auto;
+	}
+	.reviews-containers-main{
+		display: inline-block;
+	}
+	.review-containers{
+		width: auto;
+	}
+}
+
+
+
+
+
+@media screen and (max-width: 600px){
+
 }
